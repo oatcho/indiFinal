@@ -2,7 +2,6 @@ package indiFinal.controller;
 
 import indiFinal.data.CharacterRepository;
 import indiFinal.model.Character;
-import indiFinal.service.CharacterService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -15,9 +14,6 @@ import java.util.List;
 public class AppController {
     @Autowired
     CharacterRepository characterRepository = new CharacterRepository();
-//    CharacterService characterService = new CharacterService();
-
-
 
     @RequestMapping("/")
     public String displayHomePage(ModelMap modelMap){
