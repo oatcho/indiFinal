@@ -6,7 +6,8 @@
 </head>
 <body>
 <h2 th:text="${character.name}"></h2>
-<ul th:text="${character.birthYear}"></ul>
-<ul th:text="${character.gender}"></ul>
+<ul th:text="'Birth Year: ' + ${character.birthYear}"></ul>
+<ul th:text="'Gender: ' + ${character.gender}"></ul>
+<ul th:text="'Home World: ' + ${character.homeworld}"></ul>
 </body>
 </html>
