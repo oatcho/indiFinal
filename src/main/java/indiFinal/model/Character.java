@@ -17,6 +17,10 @@ public class Character {
         this.homeworld = homeworld;
     }
 
+    public Character(){
+
+    }
+
     @JsonProperty("name")
     public String getName() {
         return name;
