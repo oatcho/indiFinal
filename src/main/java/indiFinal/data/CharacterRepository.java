@@ -20,14 +20,21 @@ public class CharacterRepository {
         this.characters = characters;
     }
 
-    public void fetchAllCharacters(){
-        Character luke = characterService.fetchSingleCharacter(1);
-    }
+//    public void fetchAllCharacters(){
+//        Character luke = characterService.fetchSingleCharacter(1);
+//    }
 
     public void setAllCharactersAndAddToArrayList(){
         Character luke = characterService.fetchSingleCharacter(1);
         Character luke1 = new Character(luke.getName(), luke.getBirthYear(), luke.getGender());
         characters.add(luke1);
+
+        Character c3 = characterService.fetchSingleCharacter(2);
+        Character c31 = new Character(c3.getName(), c3.getBirthYear(), c3.getGender());
+        characters.add(c31);
+
+
+
     }
 
     public Character findByName(String name){

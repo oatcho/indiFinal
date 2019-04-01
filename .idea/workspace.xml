@@ -88,7 +88,7 @@
       <change beforePath="$PROJECT_DIR$/../homeWork12/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../homeWork12/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../homeWork12/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../homeWork12/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../homework 1-17/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../homework 1-17/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/character-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/character-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/indiFinal/data/CharacterRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/indiFinal/data/CharacterRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../loopExercise2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../loopExercise2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../loopExercises 1-16/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../loopExercises 1-16/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -141,28 +141,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/character-details.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+            <state relative-caret-position="90">
+              <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/indiFinal/data/CharacterRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+            <state relative-caret-position="203">
+              <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#406#407#0" expanded="true" />
                 <element signature="e#439#440#0" expanded="true" />
                 <element signature="e#505#506#0" expanded="true" />
                 <element signature="e#549#550#0" expanded="true" />
-                <element signature="e#593#594#0" expanded="true" />
-                <element signature="e#641#642#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -234,10 +232,10 @@
         <option value="$PROJECT_DIR$/src/main/java/indiFinal/service/CharacterService.java" />
         <option value="$PROJECT_DIR$/src/main/java/indiFinal/model/Character.java" />
         <option value="$PROJECT_DIR$/src/main/java/indiFinal/model/CharacterRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/indiFinal/data/CharacterRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/indiFinal/controller/AppController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/home.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/character-details.html" />
+        <option value="$PROJECT_DIR$/src/main/java/indiFinal/data/CharacterRepository.java" />
       </list>
     </option>
   </component>
@@ -345,7 +343,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554084757363" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554085339071" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -394,15 +392,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553983931283</updated>
-      <workItem from="1553983932936" duration="20134000" />
+      <workItem from="1553983932936" duration="20432000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20134000" />
+    <option name="totallyTimeSpent" value="20432000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -513,19 +512,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/indiFinal/data/CharacterRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/character-details.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#505#506#0" expanded="true" />
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#593#594#0" expanded="true" />
-            <element signature="e#641#642#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -555,10 +545,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/character-details.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/indiFinal/data/CharacterRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+        <state relative-caret-position="203">
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
