@@ -100,8 +100,6 @@ public class CharacterRepository {
 
     }
 
-
-
     public Character findByName(String name){
         for (Character character: characters){
             if (character.getName().equalsIgnoreCase(name)){
