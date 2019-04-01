@@ -5,6 +5,16 @@
     <title>Home</title>
 </head>
 <body>
-<h1 th:text = "${name}"></h1>
+<!--<h1 th:text = "${name}"></h1>-->
+
+<div class="characters container">
+    <div class="row">
+        <div class="col s12 l4" th:each="character: ${allChar}" >
+            <ul th:text="${character.name}"></ul>
+            <!--<a th:text="${chars.name}">-->
+            <!--</a>-->
+        </div>
+    </div>
+</div>
 </body>
 </html>

@@ -1,10 +1,32 @@
 package indiFinal.data;
 
 import indiFinal.model.Character;
+import indiFinal.service.CharacterService;
+import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 
+@Component
 public class CharacterRepository {
-    ArrayList<Character> characterArrayList = new ArrayList<>();
+    private ArrayList<Character> characters = new ArrayList<>();
+    CharacterService characterService = new CharacterService();
 
+
+    public ArrayList<Character> getCharacters() {
+        return characters;
+    }
+
+    public void setCharacters(ArrayList<Character> characters) {
+        this.characters = characters;
+    }
+
+    public void fetchAllCharacters(){
+        Character luke = characterService.fetchSingleCharacter(1);
+    }
+
+    public void setAllCharactersAndAddToArrayList(){
+        Character luke = characterService.fetchSingleCharacter(1);
+        Character luke1 = new Character(luke.getName(), luke.getBirthYear(), luke.getGender());
+        characters.add(luke1);
+    }
 }

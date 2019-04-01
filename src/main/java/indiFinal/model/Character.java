@@ -17,6 +17,13 @@ public class Character {
         this.homeworld = homeworld;
     }
 
+    public Character(String name, String birthYear, String gender) {
+        this.name = name;
+        this.birthYear = birthYear;
+        this.gender = gender;
+        this.homeworld = homeworld;
+    }
+
     public Character(){
 
     }
