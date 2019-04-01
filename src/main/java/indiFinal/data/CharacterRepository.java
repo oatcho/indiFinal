@@ -29,4 +29,13 @@ public class CharacterRepository {
         Character luke1 = new Character(luke.getName(), luke.getBirthYear(), luke.getGender());
         characters.add(luke1);
     }
+
+    public Character findByName(String name){
+        for (Character character: characters){
+            if (character.getName().equalsIgnoreCase(name)){
+                return character;
+            }
+        }
+        return null;
+    }
 }
