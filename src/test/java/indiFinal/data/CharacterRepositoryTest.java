@@ -41,8 +41,14 @@ public class CharacterRepositoryTest {
     }
 
     @Test
-    public void testsForSuccessfulRequestAndContentType(){
+    public void testsForSuccessfulRequestAndContentTypeFromCharacterEndpoint(){
         given().when().get("https://swapi.co/api/people/1/?format=json").then().assertThat()
+                .statusCode(200).and().contentType(ContentType.JSON);
+    }
+
+    @Test
+    public void testsForSuccessfulRequestAndContentTypeFromPlanetEndpoint(){
+        given().when().get("https://swapi.co/api/planets/1/?format=json").then().assertThat()
                 .statusCode(200).and().contentType(ContentType.JSON);
     }
 }
