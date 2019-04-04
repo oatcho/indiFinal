@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 @Component
 public class CharacterRepository {
-    private ArrayList<Character> characters = new ArrayList<>();
+    public ArrayList<Character> characters = new ArrayList<>();
     CharacterService characterService = new CharacterService();
 
     public ArrayList<Character> getCharacters() {
