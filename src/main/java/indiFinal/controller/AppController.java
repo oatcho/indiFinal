@@ -17,7 +17,8 @@ public class AppController {
 
     @RequestMapping("/")
     public String displayHomePage(ModelMap modelMap){
-        characterRepository.setAllCharactersAndAddToArrayList();
+        characterRepository.addAllCharactersToArrayList();
+        characterRepository.setAllCharacterPlanets();
         List<Character> allChars = characterRepository.getCharacters();
         modelMap.put("allChar", allChars);
         return "home";
