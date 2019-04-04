@@ -1,0 +1,15 @@
+#Summary of Experience
+
+I was very nervous when the initial email notifying us of the final was sent. I was pretty stressed with everything else we had going on at the time and I did not want to have to think of one more thing that I had to do.
+
+However, after actually reading the Challenge Exercise, I was pleasantly relieved. I immediately knew this was something I could do, and I set aside time on Saturday to get it done. Because I was so anxious and stressed with everything else going on, I decided I would get the project done in as quick and dirty a way as I could, and then refactor later on. I sat down Saturday evening and got the bones of the project done (dependencies, packages, and all relevant classes) in what seemed like no time. I then struggled for an hour or so getting a successful response from the api. I got frustrated, and decided to take a break and go to a friend’s birthday party. 
+
+I came back home around 2am Sunday, struggled with the api some more, and then went to bed defeated around 5am. I didn’t look at the project until the after dinner with my family Sunday evening. But with a fresh look at things, and some help from google, stack, and GH, I was able to finally get a successful response from the api and meet all minimum requirements of the project in roughly 2-3 hours. It wasn’t the cleanest code, but I could relax because I knew I’d finished the minimum requirements set forth by the challenge exercise.
+
+Considering that I didn’t know any of this 12 weeks ago, I was not only proud that I could confidently complete the project in a matter of hours, but also of the fact that I knew that what I had done wasn’t the cleanest or most efficient way of doing things. I refactored my code and threw in a few tests on Thursday in a couple hours. I’ve come along way since the beginning of the program and I’m excited to continue learning and growing.
+
+This is the first real job I’ve ever had and one of the challenges I didn’t even know I was going to face was that of balancing my priorities. I have a tendency to try and do too many things at once, and I think part of the reason for that is my fear of commitment. But one consistency throughout these 12 weeks has been my constant desire to become a better programmer as well as a better member of the Labs team. I really want to be here and I really want to make a difference and make the most of my time here. Learning to commit myself fully to something while also balancing other interests has been challenging and I’m still learning how to get better at it every day.
+
+I wanted to thank the four of you for giving me an opportunity to learn from you guys and to join the Detroit Labs team. You have made a huge impact on my life. I cannot stress that enough, so I would like to reiterate: You guys have completely changed the trajectory of my life in the best way possible. Thank you for dedicating the past 12 weeks of your lives to mine and my colleagues growth and learning, and thank you for making it an amazing time along the way. 
+
+
